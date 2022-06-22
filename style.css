@@ -1,0 +1,125 @@
+:root {
+    --Red: hsl(0, 78%, 62%);
+    --Cyan: hsl(180, 62%, 55%);
+    --Orange: hsl(34, 97%, 64%);
+    --Blue: hsl(212, 86%, 64%);
+
+    --Very-Dark-Blue: hsl(234, 12%, 34%);
+    --Grayish-Blue: hsl(229, 6%, 66%);
+    --Very-Light-Gray: hsl(0, 0%, 98%);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    font-size: 1.5rem;
+    padding-top: 80px;
+    width: 100vw;
+    height: 100vh;
+    color: var(--Very-Dark-Blue);
+    background-color: var(--Very-Light-Gray);
+}
+
+.section1 {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+}
+
+.section1 article {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.section1 article h1 {
+    font-weight: 200;
+    font-size: 2.35rem;
+}
+
+.section1 article h2 {
+    font-size: 2.35rem;
+    margin-bottom: 15px;
+}
+
+.section1 article p {
+    color: var(--Grayish-Blue);
+    text-align: center;
+}
+
+.section2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 20px;
+    width: 100%;
+    padding-top: 60px;
+    padding-bottom: 70px;
+}
+
+.section2 > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    height: 210px;
+    padding: 30px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0px 10px 37px -6px #434f5f42;
+    -webkit-box-shadow: 0px 10px 37px -6px #434f5f42;
+    -moz-box-shadow: 0px 10px 37px -6px #434f5f42;
+}
+
+.section2 > div h2 {
+    width: 100%;
+    font-size: 1.8rem;
+}
+
+.section2 > div p {
+    font-size: 1.25rem;
+    color: var(--Grayish-Blue);
+}
+
+.section2 > div div {
+    display: flex;
+    justify-content: end;
+    width: 100%;
+    padding-top: 30px;
+}
+
+.section2 > div div img {
+    width: 54px;
+}
+
+.section2__card1 {
+    border-top: 4px outset var(--Cyan);
+}
+
+.section2__card2 {
+    border-top: 4px outset var(--Red);
+}
+
+.section2__card3 {
+    border-top: 4px outset var(--Orange);
+}
+
+.section2__card4 {
+    border-top: 4px outset var(--Blue);
+}
+
+
